@@ -1,0 +1,37 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+.header {
+  background-color: #ddd;
+  padding: 10px;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+#container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 80vw;
+  height: 80vw;
+  max-width: 960px; 
+  max-height: 960px;
+  margin: 20px auto;
+  border: 2px solid #333;
+}
+
+.square {
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  background-color: brown;
+  color: white;
+  border-radius: 50px;
+}
